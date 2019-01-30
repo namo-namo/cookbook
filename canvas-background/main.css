@@ -1,0 +1,47 @@
+/*
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+*/
+
+/*
+#wrap {
+  height: 100%;
+  width:  100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+*/
+
+#canvas_left {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+}
+
+#canvas_right {
+  position: fixed;
+  top: 0%;
+  left: 90%;
+  width: 10%;
+  height: 10%;
+}
+
+#content {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  overflow: hidden scroll;
+  top: 0%;
+  left: 10%;
+  height: 100%;
+  width: calc(80% + 20px);
+  padding-right: calc(20% + 20px); /* スクロールバーを画面外に吹き飛ばす */
+}
